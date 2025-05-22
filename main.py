@@ -3,6 +3,7 @@ from typing import Union
 from fastapi import FastAPI
 
 from uvicorn import run
+from user import user
 
 app = FastAPI()
 
